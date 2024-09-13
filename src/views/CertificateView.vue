@@ -92,7 +92,31 @@ export default {
           imageUrl: 'sertif-2',
           status: 'Sertifikat Ready4Security - Indonesian Training oleh Infradigital Foundation.',
           github: 'null',
-          demo: 'null'
+          demo: 'https://infradigitalfoundation.blob.core.windows.net/certificate/ready4security/C98E011A.pdf'
+        },
+        {
+          id: 3,
+          name: 'Sertifikat 3',
+          imageUrl: 'sertif-3',
+          status: 'Sertifikat Kompetensi Belajar Dasar Visualisasi Data oleh Dicoding',
+          github: 'null',
+          demo: 'https://www.dicoding.com/certificates/L4PQQD68VPO1'
+        },
+        {
+          id: 4,
+          name: 'Sertifikat 4',
+          imageUrl: 'sertif-4',
+          status: 'Sertifikat Kursus HTML oleh Sololearn',
+          github: 'null',
+          demo: 'https://www.sololearn.com/en/certificates/CT-CGOKLH3F'
+        },
+        {
+          id: 5,
+          name: 'Sertifikat 5',
+          imageUrl: 'sertif-5',
+          status: 'Sertifikat Kursus JavaScript oleh Sololearn',
+          github: 'null',
+          demo: 'https://www.sololearn.com/certificates/CT-OFPOK9YI'
         },
       ],
       modalOpen: false,
