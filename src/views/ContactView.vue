@@ -1,31 +1,47 @@
 <template>
   <div class="container mx-auto p-8">
     <div class="text-center">
-      <h1 class="text-3xl font-semibold mb-4">Contact Us</h1>
-      <p class="text-gray-500">Saya percaya bahwa komunikasi adalah kunci untuk kesuksesan. Jika Anda memiliki pertanyaan atau ingin berbicara lebih lanjut, saya siap dihubungi melalui sosial media dibawah ini :</p>
+      <h1 class="text-3xl font-bold mb-3 text-white">Hubungi Saya</h1>
+      <p class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-amber-300">Saya percaya bahwa komunikasi adalah kunci untuk kesuksesan. Jika Anda memiliki pertanyaan atau ingin berbicara lebih lanjut, saya siap dihubungi melalui sosial media dibawah ini :</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-      <div class="flex items-center justify-center bg-white rounded-lg p-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-1">
+      <div class="flex items-center justify-center p-6 shadow-md">
         <div>
-          <h2 class="text-xl font-semibold mb-4">Email</h2>
-          <a href="mailto:najmikhaeriarrisaputra@gmail.com" class="text-blue-500 hover:underline">Email</a>
+          <h2 class="text-white font-bold mb-1">Email</h2>
+          <a href="mailto:najmikhaeriarrisaputra@gmail.com" class="text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out">
+            <i class="fas fa-envelope mr-2"></i>
+          </a>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-1" @click="openEmail">
+            <i class="fas fa-envelope mr-2"></i>
+            Hubungi Saya via Email
+          </button>
         </div>
       </div>
 
-      <div class="flex items-center justify-center bg-white rounded-lg p-6">
+      <div class="flex items-center justify-center p-6 shadow-md">
         <div>
-          <h2 class="text-xl font-semibold mb-4">LinkedIn</h2>
-          <a href="https://www.linkedin.com/in/najmikhaeriap" target="_blank" class="text-blue-500 hover:underline">LinkedIn</a>
+          <h2 class="text-white font-bold mb-1">LinkedIn</h2>
+          <a href="https://www.linkedin.com/in/najmikhaeriap" target="_blank" class="text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out">
+            <i class="fab fa-linkedin mr-2"></i>
+          </a>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-1" @click="openLinkedIn">
+            <i class="fab fa-linkedin mr-2"></i>
+            Hubungi Saya via LinkedIn
+          </button>
         </div>
       </div>
 
-      <!-- You can add more sections for other social media platforms -->
-
-      <div class="flex items-center justify-center bg-white rounded-lg p-6">
+      <div class="flex items-center justify-center p-6 shadow-md">
         <div>
-          <h2 class="text-xl font-semibold mb-4">Telegram</h2>
-          <a href="https://t.me/Najmi_Khaeri" target="_blank" class="text-blue-500 hover:underline">Telegram</a>
+          <h2 class="text-white font-bold mb-1">Telegram</h2>
+          <a href="https://t.me/Najmi_Khaeri" target="_blank" class="text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out">
+            <i class="fab fa-telegram mr-2"></i>
+          </a>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-1" @click="openTelegram">
+            <i class="fab fa-telegram mr-2"></i>
+            Hubungi Saya via Telegram
+          </button>
         </div>
       </div>
     </div>
@@ -35,6 +51,17 @@
 <script>
 export default {
   name: 'ContactView',
+  methods: {
+    openEmail() {
+      window.location.href = 'mailto:najmikhaeriarrisaputra@gmail.com';
+    },
+    openLinkedIn() {
+      window.open('https://www.linkedin.com/in/najmikhaeriap', '_blank');
+    },
+    openTelegram() {
+      window.open('https://t.me/Najmi_Khaeri', '_blank');
+    }
+  }
 }
 </script>
 
@@ -60,16 +87,8 @@ export default {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.bg-gray {
-  background-color: #d1d5db; /* Warna abu-abu */
-}
-
-.rounded-lg {
-  border-radius: 0.375rem; /* Sesuaikan kebutuhan */
-}
-
 .p-6 {
-  padding: 1.5rem; /* Sesuaikan kebutuhan */
+  padding: 1.5rem;
 }
 
 .items-center {
@@ -80,32 +99,48 @@ export default {
   justify-content: center;
 }
 
-.text-xl {
-  font-size: 1.25rem; /* Sesuaikan kebutuhan */
+.text-2xl {
+  font-size: 1.5rem;
 }
 
-.font-semibold {
-  font-weight: 600;
+.font-bold {
+  font-weight: 700;
 }
 
 .mb-4 {
-  margin-bottom: 1rem; /* Sesuaikan kebutuhan */
+  margin-bottom: 1rem;
 }
 
 .text-gray-500 {
   color: #6b7280;
 }
 
-.text-gray-600 {
-  color: #4b5563;
+.text-blue-600 {
+  color: #3498db;
 }
 
-.text-blue-500 {
-  color: #3b82f6;
+.text-blue-800 {
+  color: #2e4053;
 }
 
-.hover\:underline:hover {
-  text-decoration: underline;
+.hover\:text-blue-800:hover {
+  color: #2e4053;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 /* Responsive styles */
