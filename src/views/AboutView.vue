@@ -35,39 +35,57 @@ export default {
           status: 'Dasar'
         },
         {
-          id: 7,
+          id: 6,
           name: 'Bootstrap',
           imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
           status: 'Lanjutan'
         },
         {
-          id: 8,
+          id: 7,
           name: 'Python',
           imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png',
           status: 'Dasar'
         },
         {
-          id: 9,
+          id: 8,
           name: 'Java',
           imageUrl: 'https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.png',
           status: 'Dasar'
         },
         {
-          id: 10,
+          id: 9,
           name: 'Copywriting',
           imageUrl: 'https://w7.pngwing.com/pngs/685/788/png-transparent-copywriting-marketing-business-newsletter-industry-copywriting-infographic-angle-service.png',
           status: 'Lanjutan'
         },
         {
-          id: 11,
+          id: 10,
           name: 'WordPress',
           imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png',
           status: 'Lanjutan'
         },
         {
-          id: 12,
+          id: 11,
           name: 'Microsoft Office',
           imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Microsoft_Office_2013-2019_logo_and_wordmark.svg/2560px-Microsoft_Office_2013-2019_logo_and_wordmark.svg.png',
+          status: 'Lanjutan'
+        },
+        {
+          id: 12,
+          name: 'Tiktok Ads',
+          imageUrl: 'https://blog.sinapsis.agency/wp-content/uploads/2020/08/Tik-Tok-Ads-Una-nueva-forma-de-publicitarse.png',
+          status: 'Lanjutan'
+        },
+        {
+          id: 13,
+          name: 'Linux',
+          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlwaoPayyhM1R0CAdq-LYRg_-eFJ7xYq6yOdJ9FqbShrelUC_vVZYrQNfuwNpFyKCUDbs&usqp=CAU',
+          status: 'Lanjutan'
+        },
+        {
+          id: 13,
+          name: 'Canva',
+          imageUrl: 'https://i.pcmag.com/imagery/reviews/05GF8sMpHfawiyKgGnrgf7X-8.fit_lim.size_1050x591.v1665503374.jpg',
           status: 'Lanjutan'
         },
       ],
@@ -128,10 +146,10 @@ export default {
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp;Hallo semuanya, Saya Najmi Khaeri Arrisa Putra merupakan lulusan dari SMK Negeri 1 Cirebon Jurusan Rekayasa Perangkat Lunak. Saya sangat menyukai dengan dunia digital & teknologi. Saya juga memiliki pengalaman kursus dan Praktik Kerja Lapangan. Saya tertarik mengembangkan karir di bidang IT, Admin atau Copywriting.
+            &nbsp; &nbsp; &nbsp;Saya adalah seorang profesional di bidang Digital Marketing dengan keahlian dalam pembuatan konten kreatif, pengelolaan kampanye iklan, dan optimasi SEO. Saya memiliki pengalaman dalam mengelola kampanye TikTok Ads yang berhasil meningkatkan engagement dan konversi, serta memiliki keterampilan dalam pengembangan website berbasis WordPress. Kemampuan ini memungkinkan saya untuk mendukung strategi pemasaran digital secara lebih efektif dan komprehensif.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; Selama sekolah saya mempelajari dasar-dasar jaringan dan pembuatan website menggunakan HTML, CSS, Bootstrap, PHP (Laravel), MySQL dan Android Studio. Selain itu, saya sering mengikuti pelatihan di bidang IT, khususnya dalam keamanan siber, yang telah mengembangkan kemampuan saya di dunia IT. Pengalaman terakhir saya adalah melaksanakan Praktik Kerja Lapangan di perusahaan Digital Marketing Agency.
+            &nbsp; &nbsp; &nbsp;Selain itu, saya memiliki latar belakang yang kuat dalam keamanan siber dan coding. Saya telah mempelajari berbagai tools pentest seperti Metasploit, Nmap, dan teknik hacking lainnya, serta memiliki pengalaman dalam pengoperasian sistem Linux dan pengembangan aplikasi menggunakan PHP dan Laravel. Dengan kemampuan ini, saya dapat memahami serta menghadapi tantangan keamanan digital dengan baik, sekaligus memberikan solusi yang inovatif dalam pengembangan teknologi. Sebagai pribadi yang komunikatif, teliti, dan selalu ingin belajar, saya siap berkontribusi maksimal dalam proyek-proyek yang menantang.
           </p>
         </div>
 
