@@ -96,16 +96,16 @@ export default {
           demo: 'https://istighfar.id/jasa-seo-wonogiri/'
         },
         {
-          id: 9,
+          id: 3,
           name: 'Artikel',
           imageUrl: '9',
           status: 'Merupakan contoh Artikel buatan saya, artikel ini menceritakan tentang pengenalan ChatGPT termasuk update an ChatGPT ke versi GPT-4.',
-          tech: 'opywriting, Artikel',
+          tech: 'Copywriting, Artikel',
           github: 'null',
           demo: 'https://docs.google.com/document/d/12kp2PdWANN_MYP8Tus7omm3DbQVjOVkQ/edit?usp=sharing&ouid=116529935228941910687&rtpof=true&sd=true'
         },
         {
-          id: 8,
+          id: 4,
           name: 'Desain gambar konten menggunakan PowerPoint',
           imageUrl: '8',
           status: 'ini merupakan salah satu artikel hasil karya saya saat sedang PKL yang membuatnya berhasil mencapai peringkat 1 Google dari tahun 2022 hingga saat ini.',
@@ -114,7 +114,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 3,
+          id: 5,
           name: 'Web Sederhana',
           imageUrl: '5',
           status: 'Web dengan tampilan Sederhana yang dibuat pada saat tugas di sekolah.',
@@ -123,7 +123,7 @@ export default {
           demo: 'https://najmikhaeri.github.io/WebSederhana_Najmi/'
         },
         {
-          id: 4,
+          id: 6,
           name: 'Aplikasi Sistem Informasi Laundry',
           imageUrl: '3',
           status: 'ini merupakan projek aplikasi laundry berbasis web untuk ujian kompetensi keahlian saat saya sedang menempuh sekolah menengah kejuruan.',
@@ -132,7 +132,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 5,
+          id: 7,
           name: 'Aplikasi Sistem Informasi Hotel',
           imageUrl: '4',
           status: 'ini merupakan projek aplikasi laundry berbasis web untuk ujian kompetensi keahlian saat saya sedang menempuh sekolah menengah kejuruan.',
@@ -141,7 +141,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 6,
+          id: 8,
           name: 'Aplikasi Web Sederhana 2',
           imageUrl: '6',
           status: 'Web dengan tampilan Sederhana yang dibuat pada saat tugas di sekolah.',
@@ -150,12 +150,30 @@ export default {
           demo: 'https://najmikhaeri.github.io/latihan-bootstrapcss'
         },
         {
-          id: 7,
+          id: 9,
           name: 'Aplikasi Java Netbeans',
           imageUrl: '7',
           status: 'Aplikasi Gudang Kasir dengan menggunakan software Netbeans yang dibuat pada saat tugas di sekolah.',
           tech: 'Java',
           github: 'https://github.com/NajmiKhaeri/App_Admin_Kasir_Gudang',
+          demo: 'null'
+        },
+        {
+          id: 10,
+          name: 'Tiktok Ads',
+          imageUrl: '10',
+          status: 'Saya mengelola TikTok Ads selama bekerja di posisi Advertise Tiktok Ads. Saya bertanggung jawab atas pengelolaan kampanye iklan TikTok NSA (Non-Spark Ads) dan SA (Spark Ads), termasuk pembuatan konten iklan menggunakan aplikasi CapCut. Selain itu, saya juga telah mengelola iklan untuk 3 merek produk berbeda.',
+          tech: 'Tiktok Ads',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 11,
+          name: 'Katalog Produk',
+          imageUrl: '11',
+          status: 'Selama bekerja di posisi Advertise Tiktok Ads, saya juga mengelola katalog produk TikTok Shop dengan menggunakan Canva.',
+          tech: 'Tiktok Ads, Canva',
+          github: 'null',
           demo: 'null'
         },
       ],
